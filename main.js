@@ -8,3 +8,9 @@ document.querySelector('#app').innerHTML = `
 document.addEventListener("DOMContentLoaded", () => {
   console.log("DOM Loaded!");
 })
+
+function postItem(item){
+  fetch(url, {
+    method: "POST"
+  })
+}
